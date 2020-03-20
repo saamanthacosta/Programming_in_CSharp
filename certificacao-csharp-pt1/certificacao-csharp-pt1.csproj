@@ -61,6 +61,10 @@
     <Compile Include="Aula 2 - criar tipos de referência\5 - Objetos\Objetos.cs" />
     <Compile Include="Aula 2 - criar tipos de referência\6 - Dinamicos\Dinamicos.cs" />
     <Compile Include="Aula 2 - criar tipos de referência\7 - Strings\Strings.cs" />
+    <Compile Include="Aula 3 - classes, métodos e métodos de extensão\1 - Métodos\Metodos.cs" />
+    <Compile Include="Aula 3 - classes, métodos e métodos de extensão\2 - Parâmetros Opcionais\ParametrosOpcionais.cs" />
+    <Compile Include="Aula 3 - classes, métodos e métodos de extensão\3 - Parâmetros Nomeados\ParametrosNomeados.cs" />
+    <Compile Include="Aula 3 - classes, métodos e métodos de extensão\4 - Métodos de Extensão\MetodosDeExtensao.cs" />
     <Compile Include="IAulaItem.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

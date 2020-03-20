@@ -6,23 +6,18 @@ namespace certificacao_csharp_roteiro
     {
         public void Executar()
         {
-            int pontuacao = 10;
-            Console.WriteLine("OBJECT COM VALOR PRIMITIVO");
-            object meuObjeto;
-            meuObjeto = pontuacao;
-            Console.WriteLine($"meuObjeto: {meuObjeto}");
-            Console.WriteLine($"meuObjeto.GetType(): {meuObjeto.GetType()}");
+            string a = "bom dia";
+            string b = "b";
+            b += "om dia";
+            
+            Console.WriteLine($"a == b: {a == b}");
+            Console.WriteLine($"(object)a == (object)b: {(object)a == (object)b}");
+            
+            string bomDia = "bom dia";
+            var caractere = bomDia[4];
 
-            meuObjeto = new Jogador();
-            Jogador classRef = (Jogador)meuObjeto; //conversão explícita, ou "cast"
-            Console.WriteLine();
-            Console.WriteLine("OBJECT COM REFERÊNCIA DE OBJETO");
-            Console.WriteLine($"classRef.Pontuacao: {classRef.Pontuacao}");
-        }
-
-        internal class Jogador
-        {
-            public int Pontuacao { get; set; }
+            Console.WriteLine($"bomDia[4]: {bomDia[4]}");
+            Console.WriteLine($"caractere.GetType(): {caractere.GetType()}");
         }
     }
 }

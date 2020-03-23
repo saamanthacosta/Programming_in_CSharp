@@ -34,8 +34,8 @@
     <LangVersion>7.2</LangVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <HintPath>..\packages\Newtonsoft.Json.11.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -68,6 +68,17 @@
     <Compile Include="Aula 3 - classes, métodos e métodos de extensão\5 - Propriedades Indexadas\PropriedadesIndexadas.cs" />
     <Compile Include="Aula 4 - métodos sobrecarregados e substituídos\1 - Sobrecargas\Sobrecargas.cs" />
     <Compile Include="Aula 4 - métodos sobrecarregados e substituídos\2 - Substituídos\Substituidos.cs" />
+    <Compile Include="Aula 5 - box ou unbox para converter entre tipos de valor\1 - Boxing\Boxing.cs" />
+    <Compile Include="Aula 5 - box ou unbox para converter entre tipos de valor\2 - Unboxing\Unboxing.cs" />
+    <Compile Include="Aula 6 - cast de tipos\1 - Conversões implícitas\ConversaoImplicitas.cs" />
+    <Compile Include="Aula 6 - cast de tipos\2 - Conversões explícitas\ConversoesExplicitas.cs" />
+    <Compile Include="Aula 6 - cast de tipos\3 - Operadores IS e AS\OperadoresISeAS.cs" />
+    <Compile Include="Aula 6 - cast de tipos\4 - Conversões definidas pelo usuário\OperadoresDeConversao.cs" />
+    <Compile Include="Aula 6 - cast de tipos\5 - Conversão com Classes Auxiliares\MetodosAuxiliares.cs" />
+    <Compile Include="Aula 7 - lidar com tipos dinamicos\1 - string, var, object e dynamic\UsandoDynamic.cs" />
+    <Compile Include="Aula 7 - lidar com tipos dinamicos\2 - conversões entre dynamic e outros tipos\ConversoesDeDynamic.cs" />
+    <Compile Include="Aula 7 - lidar com tipos dinamicos\3 - resolução de sobrecarga\ResolucaoSobrecarga.cs" />
+    <Compile Include="Aula 7 - lidar com tipos dinamicos\4 - adicionando membros dinamicamente\UsandoExpandObject.cs" />
     <Compile Include="IAulaItem.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

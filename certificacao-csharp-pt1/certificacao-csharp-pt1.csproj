@@ -79,6 +79,7 @@
     <Compile Include="Aula 7 - lidar com tipos dinamicos\2 - conversões entre dynamic e outros tipos\ConversoesDeDynamic.cs" />
     <Compile Include="Aula 7 - lidar com tipos dinamicos\3 - resolução de sobrecarga\ResolucaoSobrecarga.cs" />
     <Compile Include="Aula 7 - lidar com tipos dinamicos\4 - adicionando membros dinamicamente\UsandoExpandObject.cs" />
+    <Compile Include="Aula 7 - lidar com tipos dinamicos\5 - Interoperabilidade COM\InteropCOM.cs" />
     <Compile Include="IAulaItem.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
